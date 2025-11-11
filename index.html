@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+    <html lang="ru">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+            <link rel="icon" href="images\photos\favicon-16x16.ico" type="image/x-icon">
+            <link rel="stylesheet" href="/index.css">
+            <title>Project</title>
+        </head>
+         <body>
+            <!-- Секция с фоновым изображением и формой -->
+                    <div class="top-info">
+                        <div class="container">
+                            <div class="top-info-content">
+                                <div class="top-info">
+                                    <div class="left-text"><img src="images\photos\iconhouse.png">Абхазия, Цандрыпш, ул.Октябрьская, д.492</div>
+                                    <div class="center-text"><img src="images\photos\iconconvert.png">booking@valentinahouse.ru</div>
+                                    <div class="right-text"><img src="images\photos\iconphone.png">8 (862) 279-56-89</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="hero-section">
+                        <div class="header">
+                            <div class="container">
+                                <div class="valentina"><h2>VALENTINA<br>GUEST HOUSE</h2></div>
+                                <div class="center-content">
+                                    <div class="info-line">
+                                        <span class="info-item"><u>Главная</u></span>
+                                        <span class="info-item">Номера и цены</span>
+                                        <span class="info-item">Статьи</span>
+                                        <span class="info-item">Информация</span>
+                                        <span class="info-item">Полный пансион</span>
+                                    </div>
+                                </div>
+
+                        </div>
+                        <div class="container">
+                            <div class="booking-form">
+                                <h2 class="form-title">Бронирование номера</h2>
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label for="checkin">Даты заезда</label>
+                                        <input type="date" id="checkin" value="2021-04-04">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="checkout">Даты выезда</label>
+                                        <input type="date" id="checkout" value="2021-04-06">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="guests">Гостей</label>
+                                        <select id="guests">
+                                            <option value="1">1</option>
+                                            <option value="2" selected>2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                    <button class="check-btn">Проверить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Секция с номерами -->
+                    <section class="rooms-section">
+                        <h2 class="section-title">НАШИ НОМЕРА</h2>
+                        <div class="rooms-grid">
+                        <!-- Номер 1 -->
+                            <div class="room-card">
+                                <div class="room-image">
+                                    <img src="images\photos\tworoom.png" alt="2room">
+                                </div>
+                                <div class="room-content">
+                                    <h3 class="room-title">2-х местный</h3>
+                                    <p class="room-description">
+                                        <br>-Площадь номера: 11 м2<br>-1 двуспальная кровать или 2 односпальные кровати<br>-Кондиционер<br>-Интернет<br>-Телевизор
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Номер 2 -->
+                            <div class="room-card">
+                                <div class="room-image">
+                                    <img src="images\photos\family.png" alt="family">
+                                </div>
+                                <div class="room-content">
+                                    <h3 class="room-title">Семейный</h3>
+                                    <p class="room-description">
+                                        <br>-Площадь номера: 18 м2<br>-1 двуспальная кровать или 1 односпальная кровать <br>-Кондиционер<br>-Интернет<br>-Телевизор
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Номер 3 -->
+                            <div class="room-card">
+                                <div class="room-image">
+                                    <img src="images\photos\deluxe.png" alt="deluxe">
+                                </div>
+                                <div class="room-content">
+                                    <h3 class="room-title">Deluxe</h3>
+                                    <p class="room-description">
+                                        <br>-Площадь номера: 30 м2<br>-1 двуспальная кровать или 1 раскладной диван<br>-Кондиционер<br>-Интернет<br>-Телевизор<br>-2 комнаты
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Номер 4 -->
+                            <div class="room-card">
+                                <div class="room-image">
+                                    <img src="images\photos\deluxeplus.png" alt="deluxeplus">
+                                </div>
+                                <div class="room-content">
+                                    <h3 class="room-title">Deluxe Plus</h3>
+                                    <p class="room-description">
+                                        <br>-Площадь номера: 45 м2<br>-2 односпальные кровати, 1 двуспальная кровать, 1 диван<br>-Кондиционер<br>-Интернет<br>-Телевизор<br>-3 комнаты
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <script src="/index.js">
+                    </script>
+                </body>
+    </html>
